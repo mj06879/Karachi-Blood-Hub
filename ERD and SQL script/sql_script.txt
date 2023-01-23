@@ -1,0 +1,507 @@
+CREATE TABLE Area (
+  idArea INTEGER  NOT NULL  IDENTITY (1, 1)  ,
+  final_Name VARCHAR(30) UNIQUE   ,
+PRIMARY KEY(idArea));
+GO
+
+INSERT INTO "Area" (final_Name) VALUES ('2 Talwar')
+INSERT INTO "Area" (final_Name) VALUES ('3 Talwar')
+INSERT INTO "Area" (final_Name) VALUES ('4K Chowrangi')
+INSERT INTO "Area" (final_Name) VALUES ('70 Clifton')
+INSERT INTO "Area" (final_Name) VALUES ('Abdullah Haroon Road ')
+INSERT INTO "Area" (final_Name) VALUES ('Abid Town')
+INSERT INTO "Area" (final_Name) VALUES ('Abu Hassan Asphani Road')
+INSERT INTO "Area" (final_Name) VALUES ('Adamjee Nagar')
+INSERT INTO "Area" (final_Name) VALUES ('AF Garden')
+INSERT INTO "Area" (final_Name) VALUES ('Aga Khan Hospital')
+INSERT INTO "Area" (final_Name) VALUES ('Ahsan Abad')
+INSERT INTO "Area" (final_Name) VALUES ('Al Garh Society Scheme 33')
+INSERT INTO "Area" (final_Name) VALUES ('Al Azhar Garden')
+INSERT INTO "Area" (final_Name) VALUES ('Al Hamra Society')
+INSERT INTO "Area" (final_Name) VALUES ('Al Hilal Society')
+INSERT INTO "Area" (final_Name) VALUES ('Alamgir Society')
+INSERT INTO "Area" (final_Name) VALUES ('Allah Wala Town')
+INSERT INTO "Area" (final_Name) VALUES ('Amroha Society')
+INSERT INTO "Area" (final_Name) VALUES ('Ancholi')
+INSERT INTO "Area" (final_Name) VALUES ('Anda More')
+INSERT INTO "Area" (final_Name) VALUES ('Arc Tower')
+INSERT INTO "Area" (final_Name) VALUES ('Army Housing Colony')
+INSERT INTO "Area" (final_Name) VALUES ('Art Council')
+INSERT INTO "Area" (final_Name) VALUES ('Askari 1')
+INSERT INTO "Area" (final_Name) VALUES ('Askari 2')
+INSERT INTO "Area" (final_Name) VALUES ('Askari 3')
+INSERT INTO "Area" (final_Name) VALUES ('Askari 4')
+INSERT INTO "Area" (final_Name) VALUES ('Askari 5')
+INSERT INTO "Area" (final_Name) VALUES ('Azizabad')
+INSERT INTO "Area" (final_Name) VALUES ('Bahadurabad')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria College')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 1')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 2')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 3')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 4')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 5')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 6')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 7')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 8')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 9')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 10')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 11')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria Town Precint 12')
+INSERT INTO "Area" (final_Name) VALUES ('Bahria University Stadium Road')
+INSERT INTO "Area" (final_Name) VALUES ('Bath Island')
+INSERT INTO "Area" (final_Name) VALUES ('Beach Luxury')
+INSERT INTO "Area" (final_Name) VALUES ('Buffer Zone 15 A1')
+INSERT INTO "Area" (final_Name) VALUES ('Buffer Zone 15 A2')
+INSERT INTO "Area" (final_Name) VALUES ('Buffer Zone 15 A3')
+INSERT INTO "Area" (final_Name) VALUES ('Buffer Zone 15 A4')
+INSERT INTO "Area" (final_Name) VALUES ('Buffer Zone 15 A5')
+INSERT INTO "Area" (final_Name) VALUES ('Buffer Zone 15 B')
+INSERT INTO "Area" (final_Name) VALUES ('Burns Road')
+INSERT INTO "Area" (final_Name) VALUES ('CAA Colony')
+INSERT INTO "Area" (final_Name) VALUES ('Cantt Bazar')
+INSERT INTO "Area" (final_Name) VALUES ('Central Housing Society')
+INSERT INTO "Area" (final_Name) VALUES ('Civil Hospital KHI')
+INSERT INTO "Area" (final_Name) VALUES ('Civil Lines')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 1')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 2')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 3')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 4')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 5')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 6')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 7')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 8')
+INSERT INTO "Area" (final_Name) VALUES ('Clifton 9')
+INSERT INTO "Area" (final_Name) VALUES ('Dar Ul Salam')
+INSERT INTO "Area" (final_Name) VALUES ('Dar Ul Aloom')
+INSERT INTO "Area" (final_Name) VALUES ('Dastagir')
+INSERT INTO "Area" (final_Name) VALUES ('Dawood Pota Road')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 1')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 2')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 3')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 4')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 5')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 6')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 7')
+INSERT INTO "Area" (final_Name) VALUES ('DHA Karachi phase 8')
+INSERT INTO "Area" (final_Name) VALUES ('Dhorajee')
+INSERT INTO "Area" (final_Name) VALUES ('Dr Ziauddin Ahmed Road')
+INSERT INTO "Area" (final_Name) VALUES ('Drigh Road')
+INSERT INTO "Area" (final_Name) VALUES ('Embassy Inn')
+INSERT INTO "Area" (final_Name) VALUES ('Falcon Housing Society')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 1')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 2')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 3')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 4')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 5')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 6')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 7')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 8')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 9')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 10')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 11')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 12')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 13')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 14')
+INSERT INTO "Area" (final_Name) VALUES ('FB area Block No 15')
+INSERT INTO "Area" (final_Name) VALUES ('FC Area')
+INSERT INTO "Area" (final_Name) VALUES ('Firdous Colony')
+INSERT INTO "Area" (final_Name) VALUES ('Gabol Town')
+INSERT INTO "Area" (final_Name) VALUES ('Garden East')
+INSERT INTO "Area" (final_Name) VALUES ('Garden West ')
+INSERT INTO "Area" (final_Name) VALUES ('Gulbahar')
+INSERT INTO "Area" (final_Name) VALUES ('Gulberg')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 1')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 2')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 3')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 4')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 5')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 6')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 7')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 8')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 9')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 10')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 11')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 12')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 13')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 14')
+INSERT INTO "Area" (final_Name) VALUES ('Gulistan e Jauhar 15')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 1')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 2')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 3')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 4')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 5')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 6')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 7')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 8')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 9')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 10')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 11')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 12')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 13')
+INSERT INTO "Area" (final_Name) VALUES ('Gulshan Iqbal Block No 14')
+INSERT INTO "Area" (final_Name) VALUES ('Guru Mandir')
+INSERT INTO "Area" (final_Name) VALUES ('High Court')
+INSERT INTO "Area" (final_Name) VALUES ('Hockey Stadium')
+INSERT INTO "Area" (final_Name) VALUES ('Hussainabad')
+INSERT INTO "Area" (final_Name) VALUES ('II Chundrigarh Road')
+INSERT INTO "Area" (final_Name) VALUES ('Iqra University Defence View')
+INSERT INTO "Area" (final_Name) VALUES ('Jamshed Road')
+INSERT INTO "Area" (final_Name) VALUES ('Jamshed Town')
+INSERT INTO "Area" (final_Name) VALUES ('Jinnah Court')
+INSERT INTO "Area" (final_Name) VALUES ('Jinnah Medical Dental Colleg')
+INSERT INTO "Area" (final_Name) VALUES ('Johar Complex')
+INSERT INTO "Area" (final_Name) VALUES ('Karachi Gym Khana')
+INSERT INTO "Area" (final_Name) VALUES ('Karachi University')
+INSERT INTO "Area" (final_Name) VALUES ('Karachi Zoo')
+INSERT INTO "Area" (final_Name) VALUES ('KareemAbad')
+INSERT INTO "Area" (final_Name) VALUES ('Karsaaz')
+INSERT INTO "Area" (final_Name) VALUES ('Kashmir Road')
+INSERT INTO "Area" (final_Name) VALUES ('Kazimabad')
+INSERT INTO "Area" (final_Name) VALUES ('KDA Society Korangi')
+INSERT INTO "Area" (final_Name) VALUES ('Khara Dar')
+INSERT INTO "Area" (final_Name) VALUES ('Kidney Centre')
+INSERT INTO "Area" (final_Name) VALUES ('Kiran Hospital')
+INSERT INTO "Area" (final_Name) VALUES ('Kokan Ground')
+INSERT INTO "Area" (final_Name) VALUES ('Kokan Society')
+INSERT INTO "Area" (final_Name) VALUES ('Korangi 1')
+INSERT INTO "Area" (final_Name) VALUES ('Korangi 2')
+INSERT INTO "Area" (final_Name) VALUES ('Korangi 3')
+INSERT INTO "Area" (final_Name) VALUES ('Korangi 4')
+INSERT INTO "Area" (final_Name) VALUES ('Korangi 5')
+INSERT INTO "Area" (final_Name) VALUES ('Korangi 6')
+INSERT INTO "Area" (final_Name) VALUES ('Korangi Crossing')
+INSERT INTO "Area" (final_Name) VALUES ('Lalazar')
+INSERT INTO "Area" (final_Name) VALUES ('Landi 1')
+INSERT INTO "Area" (final_Name) VALUES ('Landi 2')
+INSERT INTO "Area" (final_Name) VALUES ('Landi 3')
+INSERT INTO "Area" (final_Name) VALUES ('Landi 4')
+INSERT INTO "Area" (final_Name) VALUES ('Landi 5')
+INSERT INTO "Area" (final_Name) VALUES ('Landi 6')
+INSERT INTO "Area" (final_Name) VALUES ('Liaquatabad')
+INSERT INTO "Area" (final_Name) VALUES ('Light House')
+INSERT INTO "Area" (final_Name) VALUES ('Mai Kulachi Road')
+INSERT INTO "Area" (final_Name) VALUES ('Malir Cantt')
+INSERT INTO "Area" (final_Name) VALUES ('Muslimaabad')
+INSERT INTO "Area" (final_Name) VALUES ('Nagan Chowrangi')
+INSERT INTO "Area" (final_Name) VALUES ('Naseerabad')
+INSERT INTO "Area" (final_Name) VALUES ('Naya Nazimabad')
+INSERT INTO "Area" (final_Name) VALUES ('Nazimabad No 1')
+INSERT INTO "Area" (final_Name) VALUES ('Nazimabad No 2')
+INSERT INTO "Area" (final_Name) VALUES ('Nazimabad No 3')
+INSERT INTO "Area" (final_Name) VALUES ('Nazimabad No 4')
+INSERT INTO "Area" (final_Name) VALUES ('Nazimabad No 5')
+INSERT INTO "Area" (final_Name) VALUES ('NED University')
+INSERT INTO "Area" (final_Name) VALUES ('New Karachi')
+INSERT INTO "Area" (final_Name) VALUES ('New Rizvia Society')
+INSERT INTO "Area" (final_Name) VALUES ('North Karachi Sector 5 A1')
+INSERT INTO "Area" (final_Name) VALUES ('North Karachi Sector 5 A2')
+INSERT INTO "Area" (final_Name) VALUES ('North Karachi Sector 5 A3')
+INSERT INTO "Area" (final_Name) VALUES ('North Karachi Sector 5 A4')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad A')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad B')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad C')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad D')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad E')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad F')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad G')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad H')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad I')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad J')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad K')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad L')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad M')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad N')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad O')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad P')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad Q')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad R')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad S')
+INSERT INTO "Area" (final_Name) VALUES ('North Nazimabad T')
+INSERT INTO "Area" (final_Name) VALUES ('Numaish')
+INSERT INTO "Area" (final_Name) VALUES ('Pakistan Chowk')
+INSERT INTO "Area" (final_Name) VALUES ('Patel Para')
+INSERT INTO "Area" (final_Name) VALUES ('PECHS Society')
+INSERT INTO "Area" (final_Name) VALUES ('Power House ')
+INSERT INTO "Area" (final_Name) VALUES ('Qayyumabad')
+INSERT INTO "Area" (final_Name) VALUES ('Rainbow Society')
+INSERT INTO "Area" (final_Name) VALUES ('Rizvia Society')
+INSERT INTO "Area" (final_Name) VALUES ('Shaheed E Millat Road')
+INSERT INTO "Area" (final_Name) VALUES ('Soldier Bazaar')
+INSERT INTO "Area" (final_Name) VALUES ('Urdu Bazaar Nazimabad')
+INSERT INTO "Area" (final_Name) VALUES ('Zaib Un Nisa Street')
+
+GO
+CREATE TABLE Individual_user (
+  Individual_Id INTEGER  NOT NULL IDENTITY(1,1) ,
+  CNIC VARCHAR(100)  NOT NULL UNIQUE  ,
+  Area_idArea INTEGER  ,
+  final_Name  VARCHAR(100)    ,
+  fpassword VARCHAR(100) ,
+  Date_of_birth VARCHAR(100)    ,
+  Blood_group VARCHAR(10)    ,
+  Registered BIT    , --BIT integer 1 to 64
+  Contact_number BIGINT    ,
+  final_Address VARCHAR(100)    ,
+  Blood_taken FLOAT    ,
+  Blood_given INTEGER      ,
+PRIMARY KEY(Individual_Id)  ,
+  FOREIGN KEY(Area_idArea)
+    REFERENCES Area(idArea));
+GO
+
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (4320376893578,134,'Ahmed Afzal','qwerty','12/01/2000','O+',1,03353416644,'House no 123',0,12)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (5658767567675,4,'Ammar Fasi','wertyu','07/19/1995','O-',1,0311155676767,'House 201 Street 3',0,13)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (3765912657890,60,'Burhan Khan','ertyui','08/20/1999','AB-',1,03007859482,'House no C12 Beside Rahat Milk',5,3)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (3462875634548,201,'Akbar Azeemi','rtyuio','03/19/1994','B+',1,03119482320,'Apt no 125 Sawera Apartments',0,4)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (4958739857344,71,'Ali Sherwani',NULL,NULL,'A-',0,NULL,NULL,4,0)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (4365834563523,167,'Shakeel Achakzai',NULL,NULL,'O+',0,NULL,NULL,0,7)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (4376322763326,57,'Abdullah Sheikh',NULL,NULL,'B-',0,NULL,NULL,10,0)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (4937434854984,223,'Muhamad Bilal',NULL,NULL,'A-',0,NULL,NULL,0,8)
+INSERT INTO "Individual_user" (CNIC,Area_idArea,final_Name,fpassword,Date_of_birth,Blood_group,Registered,Contact_number,final_Address,Blood_taken,Blood_given) VALUES (4768777897897,142,'Ahsan Haider',NULL,NULL,'A+',0,NULL,NULL,3,0)
+
+GO
+CREATE INDEX Individual_User_FKIndex1 ON Individual_user (Area_idArea);
+GO
+
+
+CREATE INDEX IFK_Individuals_area ON Individual_user (Area_idArea);
+GO
+
+
+CREATE TABLE Hospital (
+  idHospital INTEGER  NOT NULL   IDENTITY(1,1) ,
+  Area_idArea INTEGER  NOT NULL  ,
+  fpassword  VARCHAR(100)    ,
+  Hospital_Name VARCHAR(100) UNIQUE   ,
+  Contact_no BIGINT UNIQUE    ,
+PRIMARY KEY(idHospital)  ,
+  FOREIGN KEY(Area_idArea)
+    REFERENCES Area(idArea));
+GO
+
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('15','ytrewq','ZiaUddin Hospital','02136688743')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('101','asdfgh','Aga Khan Hospital','02136688325')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('54','sdfghj','Saifee Hospital','02136684795')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('194','dfghjk','South City Hospital','02135584051')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('27','fghjkl','Civil Hospital','02136684033')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('163','lkjhgf','IZA Hospital','02136684444')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('139','kjhgfd','Ziauddin Hospital Clifton Campus','02136578456')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('47','jhgfds','Mamji Hospital','02136689667')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('201','hgfdsa','Abbasi Shaheed Hospital','02136248045')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('156','zxcvbn','PNS Shifa Hospital','02136630057')
+INSERT INTO "Hospital" ("Area_idArea","fpassword","Hospital_Name", "Contact_no") VALUES ('132','xcvbnm','Liaquat National Hospital','02136600045')
+
+
+
+CREATE INDEX Hospital_FKIndex1 ON Hospital (Area_idArea);
+GO
+
+
+CREATE INDEX IFK_hospital_area ON Hospital (Area_idArea);
+GO
+
+
+CREATE TABLE Blood_Bank (
+  idBlood_Bank INTEGER  NOT NULL IDENTITY(1,1) ,
+  Area_idArea INTEGER  NOT NULL  ,
+  fpassword  VARCHAR(100)    ,
+  final_Name VARCHAR (100) UNIQUE  ,
+  Contact_no VARCHAR(30) UNIQUE   ,
+  Availability_status BIT      ,
+PRIMARY KEY(idBlood_Bank)  ,
+  FOREIGN KEY(Area_idArea)
+    REFERENCES Area(idArea));
+GO
+
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (64,'mnbvcx','Ziauddin Hospital Clifton Blood Bank',02132851880,1) 
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (223,'nbvcxz','Husaini Blood Bank',92315487264,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (72,'qazwsx','BloodBank Diagnostic NMC Center',021111222662,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (223,'edcrfv','Mohamadi Blood Bank',03162946498,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (57,'tgbyhn','PWA blood bank civil hospital',02132735214,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (134,'ujmiko','Al Mustafa Blood bank',02134820103,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (10,'plokmp','Aga Khan Hospital and Blood Bank',02134861558,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (201,'ijnuhb','Ziauddin Hospital North Nazimabad Blood Bank',02132851870,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (167,'ygvtfc','Ziauddin Hospital Kemari Blood Bank',02132851860,1)
+INSERT INTO "Blood_Bank" (Area_idArea,fpassword,final_Name,Contact_no,Availability_status) VALUES (55,'rdxesz','NICH bloodbank',021992012613,1)
+
+CREATE INDEX Blood_Bank_FKIndex1 ON Blood_Bank (Area_idArea);
+GO
+
+
+CREATE INDEX IFK_blood_bank_Area ON Blood_Bank (Area_idArea);
+GO
+
+
+CREATE TABLE Blood_bank_has_Blood_Amount (
+  Blood_Bank_idBlood_Bank INTEGER  NOT NULL  ,  
+  Blood_type  VARCHAR(10)  NOT NULL  ,
+  Amount INTEGER      ,
+PRIMARY KEY(Blood_Bank_idBlood_Bank,Blood_type)  , --primary key changed to composite key and remove identity keyword since not self-generated
+  FOREIGN KEY(Blood_Bank_idBlood_Bank)
+    REFERENCES Blood_Bank(idBlood_Bank));
+GO
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','A+','10') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','A-','3')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','B+','42')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','B-','35')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','AB+','68')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','AB-','41')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','O+','17')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('1','O-','23')
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','A+','9') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','A-','25')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','B+','47')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','B-','63')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','AB+','8')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','AB-','1')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','O+','31')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('2','O-','20')
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','A+','20') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','A-','36')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','B+','87')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','B-','62')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','AB+','10')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','AB-','64')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','O+','30')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('3','O-','41')
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','A+','97') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','A-','4')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','B+','9')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','B-','36')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','AB+','61')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','AB-','13')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','O+','27')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('4','O-','32')
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','A+','1') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','A-','6')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','B+','4')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','B-','7')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','AB+','8')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','AB-','24')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','O+','68')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('5','O-','13')
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','A+','10') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','A-','3')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','B+','14')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','B','90')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','AB+','8')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','AB-','4')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','O+','7')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('6','O-','20')
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','A+','0') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','A-','67')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','B+','0')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','B-','0')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','AB+','6')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','AB-','41')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','O+','17')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('7','O-','23')
+
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','A+','120') --Considering we have 10 banks and 8 blood types, there will be 80 entries by virtue of 10 multiply by 8
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','A-','39')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','B+','42')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','B-','58')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','AB+','60')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','AB-','97')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','O+','76')
+INSERT INTO "Blood_bank_has_Blood_Amount" ("Blood_Bank_idBlood_Bank","Blood_type","Amount") VALUES ('8','O-','20')
+
+
+GO
+CREATE INDEX Blood_bank_has_Blood_Amount_FKIndex1 ON Blood_bank_has_Blood_Amount (Blood_Bank_idBlood_Bank);
+GO
+
+
+CREATE INDEX IFK_BB_Amount ON Blood_bank_has_Blood_Amount (Blood_Bank_idBlood_Bank);
+GO
+
+
+CREATE TABLE Donations (
+  idDonations INTEGER  NOT NULL   IDENTITY(1,1) ,
+  Amount_Donated INTEGER NOT NULL ,
+  Individual_user_Individual_Id INTEGER  NOT NULL  ,
+  Blood_Bank_idBlood_Bank INTEGER  NOT NULL  ,
+  DateTime_2 VARCHAR(100)      ,
+PRIMARY KEY(idDonations)    ,
+  FOREIGN KEY(Individual_user_Individual_Id)
+    REFERENCES Individual_user(Individual_Id),
+  FOREIGN KEY(Blood_Bank_idBlood_Bank)
+    REFERENCES Blood_Bank(idBlood_Bank));
+GO
+
+INSERT INTO "Donations" ("Amount_Donated","Individual_user_Individual_ID","Blood_Bank_idBlood_Bank","DateTime_2") VALUES ('5','8' , '6' , '6/25/2017') --DateTime in the format MM/DD/YYYY
+INSERT INTO "Donations" ("Amount_Donated","Individual_user_Individual_ID","Blood_Bank_idBlood_Bank","DateTime_2") VALUES ('4','5' , '3' , '10/30/2015')
+INSERT INTO "Donations" ("Amount_Donated","Individual_user_Individual_ID","Blood_Bank_idBlood_Bank","DateTime_2") VALUES ('9','7' , '1' , '4/14/2018')
+INSERT INTO "Donations" ("Amount_Donated","Individual_user_Individual_ID","Blood_Bank_idBlood_Bank","DateTime_2") VALUES ('1','1' , '4' , '12/17/2018')
+INSERT INTO "Donations" ("Amount_Donated","Individual_user_Individual_ID","Blood_Bank_idBlood_Bank","DateTime_2") VALUES ('15','2' , '6' , '9/5/2020')
+INSERT INTO "Donations" ("Amount_Donated","Individual_user_Individual_ID","Blood_Bank_idBlood_Bank","DateTime_2") VALUES ('1','2' , '4' , '9/29/2017')
+INSERT INTO "Donations" ("Amount_Donated","Individual_user_Individual_ID","Blood_Bank_idBlood_Bank","DateTime_2") VALUES ('20','6' , '2' , '1/10/2019')
+
+GO
+CREATE INDEX Donations_FKIndex1 ON Donations (Individual_user_Individual_Id);
+GO
+CREATE INDEX Donations_FKIndex2 ON Donations (Blood_Bank_idBlood_Bank);
+GO
+
+
+CREATE INDEX IFK_Individal_Donation ON Donations (Individual_user_Individual_Id);
+GO
+CREATE INDEX IFK_Donation_To_BB ON Donations (Blood_Bank_idBlood_Bank);
+GO
+
+
+CREATE TABLE Request (
+  idRequest INTEGER  NOT NULL   IDENTITY(1,1) ,
+  Patient_CNIC VARCHAR(100) NOT NULL  ,
+  Blood_Group VARCHAR(100) NOT NULL,
+  Requestedby_Hospital INT ,
+  Requestedby_User INT ,
+  Blood_Bank_idBlood_Bank INTEGER  NOT NULL  ,
+  DateTime_2 VARCHAR(100)    ,
+  User_Current_Area VARCHAR(100)    ,
+  Amount_needed INTEGER    ,
+  Filfulled BIT      , --integer from 1 to 64--
+PRIMARY KEY(idRequest)      ,
+  FOREIGN KEY(Blood_Bank_idBlood_Bank)
+    REFERENCES Blood_Bank(idBlood_Bank),
+  FOREIGN KEY(Requestedby_Hospital)
+    REFERENCES Hospital(idHospital),
+  FOREIGN KEY(Requestedby_User)
+    REFERENCES Individual_user(Individual_Id));
+GO
+
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4320376893578','A+',NULL,'3','10','12-30-2014','Clifton 3','4','1')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4210176433574','O-','11' ,NULL,'4','02-01-2015','FB area Block No 1','4','1')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('5658767567675','AB+',NULL,'2','6','03-27-2015','Rizvia Society','6','2')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4100379843573','B-','7',NULL,'7','11-14-2014','Clifton 4','3','2')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4958739857344','B+',NULL,'5','7','10-10-2017','Gulshan Iqbal Block No 10','1','1')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4820136463577','A+','2',NULL,'1','09-26-2019','Nagan Chowrangi','9','1')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4920377766570','O+',NULL,'8','2','07-30-2012','PECHS Society','7','2')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4376322763326','O+','4',NULL,'8','02-11-2014','Hussainabad','2','1')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4768477897897','AB-',NULL,'5' ,'9','01-22-2016','Soldier Bazaar','3','1')
+INSERT INTO "Request" ("Patient_CNIC","Blood_Group","Requestedby_Hospital","Requestedby_User","Blood_Bank_idBlood_Bank","DateTime_2","User_Current_Area","Amount_needed","Filfulled") VALUES ('4937434854984','A-','8',NULL,'3','10-03-2017','Zaib Un Nisa Street','4','2')
+
+GO
+CREATE INDEX Request_FKIndex3 ON Request (Blood_Bank_idBlood_Bank);
+GO
+CREATE INDEX Request_FKIndex4 ON Request (Requestedby_Hospital);
+GO
+CREATE INDEX Requested_for ON Request (Requestedby_User);
+GO
+
+
+CREATE INDEX IFK_BB_requests ON Request (Blood_Bank_idBlood_Bank);
+GO
+CREATE INDEX IFK_request_through_hospital ON Request (Requestedby_Hospital);
+GO
+CREATE INDEX IFK_Individual_request ON Request (Requestedby_User);
+GO
+
+ 
